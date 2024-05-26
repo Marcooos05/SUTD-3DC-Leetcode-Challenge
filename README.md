@@ -50,9 +50,9 @@ pip install -r requirements.txt
 1.  Use BotFather to generate a new telegram bot via telegram.
 2.  Copy Bot_Username and Token into mainbot.py.
 3.  Fill up all registered Leetcode Usernames in the 'filterednames.txt' file.
-- Alternatively, start the bot and use the command /register to register leetcode usernames.
+  - Alternatively, start the bot and use the command /register to register leetcode usernames.
 4.  Run the python code to keep the Bot Online.
-- Alternatively, upload the code into a cloud server like DigitalOcean to keep the bot live.
+  - Alternatively, upload the code into a cloud server like DigitalOcean to keep the bot live.
 5.  Use the Bot Commands to retrieve score of users and the leaderboard of the challenge.
 
 ## License
