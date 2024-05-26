@@ -32,7 +32,7 @@ def filterall(fileofnames):
                 # invalid leetcode username
                 output.append(username + " invalid leetcode username")
             else:
-                # valid leetcode username
+                # valid leetcode username - Inlcude all user requirements HERE to ensure only eligible users are allowed to participate in the challenge
 
                 # Only register valid leetcode usernames with 'SUTD' in their education
                 if 'SUTD' in res:
@@ -43,8 +43,7 @@ def filterall(fileofnames):
         else: 
             output.append(username + " already participating")
 
-        time.sleep(2)
-    #print('Done')
+        time.sleep(2) ##delay timer to prevent pull request failure from Leetcode.com
     names.close()
     file.close()
     return output
@@ -96,7 +95,7 @@ def filter(names):
                     userdetails.write(line)
 
                 else:
-                    output.append(newname + " 'SUTD' in education not found")
+                    output.append(newname + " 'SUTD' in education not found") ##Return prompt for Leetcode User requirement
         else:
             output.append(newname + " already participating")
 
